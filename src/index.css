@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  /* transition: 0.5s linear all; */
+  overflow-wrap: normal;
+  font-family: var(--Josefin_Sans);
 }
+
+h2{
+  font-weight: bold;
+  font-family: var(--Josefin_Sans);
+  padding-top: 1em;
+  
+}
+
+@import './Style/Navbar.css';
+@import './Style/Variables.css';
+@import './Style/MainNav.css';
+@import './Style/Home.css';
+@import './Style/Media.css';
+@import './Style/LatestProduct.css';
+@import './Style/Cards.css';
+@import './Style/SingleProduct.css'

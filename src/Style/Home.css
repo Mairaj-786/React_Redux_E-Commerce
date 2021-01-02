@@ -1,0 +1,132 @@
+.Home{
+    width: 100%;
+    position: relative;
+    height: 80vh;
+    margin-bottom: 10em;
+    background-size: 100%, 100%;
+}
+.first_slide{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(136, 208, 236, 0.5),rgba(0,0,0,0.4)), url('../images/sd.jpg');
+    background-size: 100%  100% !important;
+
+}
+.third_slide{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/sd2.jpg');
+    background-size: 100%  100% !important;
+
+}
+.second_slide{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../images/slide2.jpg');
+    background-size: 100%  100% !important;
+
+}
+
+.first_slide{
+    position: relative;
+}
+.first_slide_text{
+    color: black;
+    position: absolute;
+    left: 34%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+.first_slide_text b{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--Montserrat);
+
+}
+.first_slide_text h1{
+    font-size: 47px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.first_slide_text p{
+    width: 80%;
+    font-family: var(--Montserrat);
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.btns{
+    position: relative;
+
+}
+.btns ul{
+    display: flex;
+    list-style: none;
+}
+.btns ul li{
+    margin: 0 1em;
+    margin-left: 0%;
+    border-radius: 30px;
+    border: 2px solid gray;
+    padding: .5em 3em;
+    list-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+
+}
+.btns ul li:nth-child(2){
+    background-color: black;
+    transition: 0.3s linear;
+
+}
+.btns ul li:nth-child(1){
+    color: var(--color-black);
+
+}
+.btns ul li:nth-child(2):hover{
+    background-color: transparent;
+}
+.btns ul li a{
+    color: var(--color-light);
+    text-decoration-line: none;
+    text-transform: uppercase;
+}
+.btnblack{
+    color: var(--color-black) !important;
+}
+.btnwhite:hover{
+    color: var(--color-black) !important;
+}
+
+.pink_logo{
+    background-color: rgb(236, 69, 236);
+    position: absolute;
+    border-radius: 100%;
+    margin: 2em .9em;
+    width: 26%;
+    text-align: center;
+    color: var(--color-light);
+    right: -60%;
+    top: 40%;
+}
+.pink_logo b{
+    font-family: var(--Josefin_Sans);
+    font-weight: 700;
+
+}
+.pink_logo h1{
+    font-family: var(--Montserrat);
+    font-weight: 600;
+
+}
+.pink_logo p{
+    margin: 0 auto;
+    padding-bottom: .4em;
+
+}

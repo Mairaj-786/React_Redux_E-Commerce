@@ -1,0 +1,39 @@
+.navbar{
+    width: 100%;
+    overflow: hidden;
+}
+.navbar-brand{
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.center__input {
+    position: relative;
+    width: 400px;
+    margin: 1em 6em;
+
+}
+.center__input input{
+    background-color: var(--color-light) !important;
+    box-shadow: none !important;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.center__input i{
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    cursor: pointer;
+    font-weight: 100;
+}
+.nav-link{
+    color: black;
+
+}

@@ -1,0 +1,55 @@
+.SingleProduct{
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    margin: 7em 0;
+    overflow: hidden;
+}
+
+.IMG img{
+    width: 100%;
+    height: 70vh;
+}
+
+.description{
+    position: relative;
+}
+.name_price h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.name_price b{
+    font-size: 20px;
+
+}
+.incre_Decre_btn{
+    position: relative;
+}
+.incre_Decre_btn b{
+    border: 1px solid lightgray;
+    font-size: 30px;
+    padding: 0 .4em;
+}
+.incre_Decre_btn span{
+    border: 1px solid lightgray;
+    cursor: pointer;
+    height: 2vh;
+    width: auto;
+    /* background-color: gray; */
+    font-size: 29px;
+    /* margin: 0 .6em; */
+    padding: 0em .7em;
+    text-align: center;
+}
+.incre_Decre_btn button{
+    margin-left: 2em;
+    padding: .4em 1em;
+    width: 60%;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: pink;
+}
