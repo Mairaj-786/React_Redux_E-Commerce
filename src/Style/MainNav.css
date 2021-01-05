@@ -24,6 +24,19 @@
     font-weight: 400;
     transition: 0.3s linear all;
 }
+.MainNav ul li:nth-child(8){
+    position: relative;
+    font-size: 30px;
+    margin: .1em 0;
+}
+.cart{
+    background-color: pink;
+    font-family: sans-serif;
+    font-size: 21px !important;
+    color: #000;
+    border-radius: 100%;
+    padding: .2em .4em;
+}
 .ham{
     position: relative;
 }

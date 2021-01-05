@@ -7,23 +7,8 @@ const Cards = () => {
     const { products } = useSelector(state => state.ProductReducer);
     return (
         <div className="Cards">
-            <h2 className="text-center">BROWSE TOP SELLING PRODUCTS</h2>
-            <div className="container">
-                <div className="Cards_nav">
-                    <ul>
-                        <li><a href="#">Tops</a></li>
-                        <li><a href="#">Dress</a></li>
-                        <li><a href="#">jumpsuit</a></li>
-                        <li><a href="#">Lingerie</a></li>
-                        <li><a href="#">jeans</a></li>
-                        <li><a href="#">coats</a></li>
-                        <li><a href="#">jumper</a></li>
-                        <li><a href="#">Kids</a></li>
 
-                    </ul>
-                </div>
-            </div>
-
+            <h1 className="text-center"></h1>
             <div className="main_cards">
                 <div className="container">
                     <div className="row">

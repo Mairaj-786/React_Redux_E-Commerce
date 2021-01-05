@@ -10,7 +10,6 @@ const SingleProduct = () => {
 
     const [Quintity, SetQuintity] = useState(1)
 
-    const { totalQuintites } = useSelector(state => state.CartReducers)
 
     const decQuintity = () => {
         if (Quintity > 1)
@@ -22,7 +21,6 @@ const SingleProduct = () => {
     }, [id])
     return (
         <div className="SingleProduct">
-            <h1 className="pl-5 ml-5">{totalQuintites}</h1>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">

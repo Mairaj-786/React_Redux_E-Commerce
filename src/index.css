@@ -29,4 +29,5 @@ h2{
 @import './Style/Media.css';
 @import './Style/LatestProduct.css';
 @import './Style/Cards.css';
-@import './Style/SingleProduct.css'
+@import './Style/SingleProduct.css';
+@import './Style/Cart.css'
